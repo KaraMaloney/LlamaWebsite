@@ -1,0 +1,292 @@
+CSS Document
+CSS Reset
+
+/* General styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1 {
+	color: teal;
+}
+
+fieldset {
+	margin-top: 10px;
+	width: 400px;
+	text-align: left;
+}
+
+
+legend {
+	color: teal;
+	border: 2px solid black;
+	padding: 6px;
+	font-weight: bold;
+}
+
+table {
+	margin: 4px;
+	padding: 4px;
+
+}
+
+td {
+	padding: 2px;
+}
+
+.center-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* About page */
+
+.header {
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+#top {
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 10px;
+	border: 2px grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-border{
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.column {
+float: left;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.left {
+	width: 33%;
+	border-top: solid 5px #3DCCCC;
+}
+
+.middle {
+	width: 33%;
+	border-top: solid 5px #3DCCCC;
+}
+
+.right {
+	width: 33%;
+	border-top: solid 5px #3DCCCC;
+}
+
+.booked{
+border: solid 2px black;
+color: teal;
+padding: 5px;
+margin: 5px;
+font-weight: bold;
+}
+
+.unavailable {
+	color: #ccc4c4;
+	background-color: #a39d9d;
+}
+
+.phoneapp {
+	border: solid 2px black;
+	color: LightCoral;
+	padding: 5px;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.datetime {
+	font-weight: bold;
+	font-size: 18px;
+	border: solid 1px black;
+	border-bottom: solid 5px #3DCCCC;
+	padding: 15px;
+}
+
+.available:hover {
+	background-color: #3DCCCC;
+	color: white;
+	cursor: pointer;
+}
+
+/*Contact */
+
+.required {
+	color: red;
+}
+
+.group {
+	display: block;
+	padding: 4px;
+	margin-left: 35px;
+}
+
+#data {
+	padding-left: 8px;
+}
+
+input[type="text"] {
+		color: teal;
+}
+
+input[type="email"] {
+	color: teal;
+}
+
+/* Nav Bar*/
+
+.nav {
+	width: 100%;
+	overflow: auto;
+}
+
+.nav a{
+	color: teal;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 20px;
+	border: solid 1px white;
+	padding: 10px;
+}
+
+.nav a:hover {
+	border: solid 1px black;
+	margin-right: 20px;
+	font-size: 20px;
+	padding: 10px;
+	color: #3DCCCC;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dcontent {
+	display: none;
+  position: absolute;
+	background-color: white;
+}
+
+.dcontent a{
+	color: LightCoral;
+	font-weight: bold;
+	display: block;
+}
+
+.dropdown:hover .dcontent {
+  display: block;
+	border: none;
+}
+
+/*index info */
+
+#llama-image {
+	width: 200px;
+	height: 200px;
+}
+
+ /* Search Bar */
+
+.info{
+	margin-left: 50px;
+}
+
+ .search{
+	 margin-left: 50px;
+ }
+
+ #searchbar {
+   padding: 11px;
+	 width: 60%;
+   border: 1px solid black;
+	 margin-bottom: 20px;
+ }
+
+ #list {
+	 width: 60%;
+	 padding-top: 10px;
+	 border-collapse: collapse;
+   padding: 10px;
+   margin: 10;
+	 cursor: pointer;
+ }
+
+ #list td {
+   text-decoration: none;
+	 padding-right: 30px;
+	 padding-bottom: 20px;
+   color: black;
+ }
+
+ #list th {
+  color: teal;
+	font-style: bold;
+	font-size: 20px;
+	padding: 15px;
+	cursor: default;
+ }
+
+#list tr {
+
+}
+
+ #list tbody tr:hover {
+	 background-color: #f1f1f1;
+ }
+
+ .colour {
+	 display: none;
+ }
+
+ /* Weather */
+
+ .weather {
+	 font-style: italic;
+	 right: 50px ;
+	 color: black;
+	 display: flex;
+	 float: right;
+	 margin-right: 20px;
+	 margin-top: 20px;
+ }
+
+ .weather #icon {
+ flex-wrap: wrap;
+ font-size: 25px;
+ color: #3DCCCC;
+ margin-right: 3px;
+ }
+
+ .weather p {
+	 margin-top: 2px;
+	 padding: 0;
+	font-size: 20px;
+	color: LightCoral;
+ }
+
+/* currency */
+
+.icon {
+	width: 15px;
+	height: 15px;
+}
+
+#searchtable {
+
+	font-size: 24em;
+
+}

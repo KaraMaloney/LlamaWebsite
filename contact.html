@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div id="top">
+      <header>
+        <h1>Contact Us</h1>
+        <p>Please complete the information below.<br>Fields marked with <span class="required">*</span> are required fields</p>
+      </header>
+    </div>
+    <div id="data" class="center-align">
+      <form action="mailto:example@algonquinlive.com" method="post">
+        <fieldset>
+          <legend>INFORMATION</legend>
+          <table>
+            <tr>
+              <th class="group"><label>First Name<span class="required">*</span></label></th>
+              <td class="group"><input type="text" required="required"/></td>
+            </tr>
+            <tr>
+              <th class="group"><label>Last Name<span class="required">*</span></label></th>
+              <td class="group"><input type="text" required="required"/></td>
+            </tr>
+            <tr>
+              <th class="group"><label>Street Address<span class="required">*</span></label></th>
+              <td class="group"><input type="text" required="required"/></td>
+            </tr>
+            <tr>
+              <th class="group"><label>City<span class="required">*</span></label></th>
+              <td class="group"><input type="text" required="required"/></td>
+            </tr>
+            <tr>
+              <th class="group"><label for="province">Province<span class="required">*</span></label></th>
+              <td class="group">
+                <select id="province" name="province" required="required">
+                <option disabled selected value="">Select an option</option>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbis</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="YT">Yukon</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th class="group"><label>Postal Code<span class="required">*</span></label></th>
+              <td class="group"><input type="text" required="required"/></td>
+            </tr>
+            <tr>
+              <th class="group"><label>Email Address<span class="required">*</span></label></th>
+              <td class="group"><input type="email" required="required"/></td>
+            </tr>
+            <tr>
+              <th class="group"><label>Phone Number<span class="required">*</span></label></th>
+              <td class="group"><input type="text" required="required" maxlength="10"/></td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>AGREEMENT</legend>
+          <div class="group">
+            <input type="checkbox" value="data" required="required"/>
+            <span class="required">*</span>
+            <label>Accept Agreement</label>
+          </div>
+          <div class="group">
+            <input type="reset">
+            <input type="submit">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
